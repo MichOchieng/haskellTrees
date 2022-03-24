@@ -23,6 +23,6 @@ treeTestB :: Tree Int -> Int
 treeTestB = foldl (\acc x -> x + acc) 0
 
 main = do
-    print $ treeTestA myTree
-    print $ treeTestB myTree
+    print . treeTestA $ myTree
+    print . treeTestB $ myTree
     
