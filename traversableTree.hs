@@ -25,3 +25,6 @@ myTree = Node 1
                 (Node 6 EmptyTree EmptyTree)
                 (Node 7 EmptyTree EmptyTree)
             )
+
+main = do
+    traverse print myTree
